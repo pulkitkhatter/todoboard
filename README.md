@@ -1,7 +1,7 @@
 # Notion Board
 
 Notion Board is a modern project management tool built with React.js and styled with a CSS framework. It offers a seamless user experience for organizing tasks with drag-and-drop functionality, adding new tasks, and keeping track of important deadlines.
-
+![Notion Board Preview](https://github.com/pulkitkhatter/todoboard/blob/main/WhatsApp%20Image%202024-03-10%20at%2014.50.57_dcf68950.jpg)
 ## Features
 
 - **Drag-and-Drop Functionality**: Easily move tasks/cards from one status to another by simply dragging and dropping.
