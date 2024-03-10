@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Notion Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Notion Board is a modern project management tool built with React.js and styled with a CSS framework. It offers a seamless user experience for organizing tasks with drag-and-drop functionality, adding new tasks, and keeping track of important deadlines.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Drag-and-Drop Functionality**: Easily move tasks/cards from one status to another by simply dragging and dropping.
+- **Add Tasks**: Add new tasks using the "New" button located under any status column.
+- **Local Storage or JSONPlaceholder**: Store your task information locally using browser's local storage or use the JSONPlaceholder API for persistent storage.
+- **Display Task Counts**: Display the count of cards under each status column to provide a quick overview of your task distribution.
+- **Date and Importance**: Add dates to tasks and specify their importance to prioritize your workload effectively.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: Utilized for building the frontend user interface and managing state efficiently.
+- **CSS Framework**: Employed a CSS framework for responsive and visually appealing design.
+- **Local Storage / JSONPlaceholder**: Integrated either local storage or JSONPlaceholder API for data storage.
+- **React DnD**: Leveraged React DnD library for implementing drag-and-drop functionality.
+- **React Router**: Utilized React Router for client-side routing within the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Live Demo
 
-### `npm test`
+You can access a live demo of Notion Board [here](#).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server with `npm start`.
+4. Open your browser and navigate to `http://localhost:3000`.
+5. Start organizing your tasks!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Local Storage Integration
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Notion Board offers the option to store your tasks locally using browser's local storage feature. Your tasks will persist even after refreshing the page or closing the browser window.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributions are welcome! If you'd like to contribute to Notion Board, please fork the repository and create a pull request with your changes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note**: Notion Board is a project created for educational purposes. It is not intended for production use.
