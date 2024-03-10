@@ -20,7 +20,7 @@ Notion Board is a modern project management tool built with React.js and styled 
 
 ## Live Demo
 
-You can access a live demo of Notion Board [here](#).
+You can access a live demo of Notion Board [here](https://todoboardforairtribe.netlify.app/).
 
 ## Usage
 
